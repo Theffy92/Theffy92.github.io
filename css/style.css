@@ -43,6 +43,10 @@ body {
   padding-top: 150px;
 }
 
+#main {
+     margin-top: 4.5rem;
+     margin-bottom: 40px;
+}
 #main .navbar{
   background-color:rgba(140, 154, 154, 0.7411764705882353);
 }

@@ -1,0 +1,69 @@
+body {
+  height: 100%;
+  background-color: #f3efe0;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #333;
+}
+
+.nav li a {
+  display: block;
+  color: #000;
+  font: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+.nav ul {
+  display: -ms-flexbox;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-color: rgba(51, 51, 51, 0.38);
+}
+
+/*.nav .navbar-nav .nav-item.active .nav-link{
+ background-color:black;
+}*/
+
+.navbar-nav .nav-item .nav-link {
+ color:white;
+}
+
+.nav a{
+  padding-top: 150px;
+}
+
+#main .navbar{
+  background-color:rgba(140, 154, 154, 0.7411764705882353);
+}
+
+#main .navbar .navbar-collapse{
+  background-color:rgba(140, 154, 154, 0.7411764705882353);
+}
+
+#profile{
+  background-color:#f3efe0;
+}
+
+#experience{
+  background-color:#ffff;
+}
+
+#contact{
+  background-color:#ffff;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.25);
+
+}

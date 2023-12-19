@@ -71,6 +71,10 @@ body {
   background-color:#ffff;
 } */
 
+.skill-icon{
+  font-size: 3em;
+}
+
 footer {
   background-color: rgba(0, 0, 0, 0.25);
 

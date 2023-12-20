@@ -95,6 +95,41 @@ body {
   color:rgb(18, 29, 77);
 }
 
+.fa-js{
+  color:rgb(248, 202, 0);
+}
+
+.fa-wordpress{
+  color:rgb(67, 146, 183);
+}
+
+.fa-python::before{
+  content: "\f3e2"; /* Unicode for the Python icon in FontAwesome */
+  font-family: "Font Awesome 5 Brands";
+  position: absolute;
+  top: 0;
+  /* left: 0;  */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #306998, #FFD43B); /* Adjust the gradient colors */
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.fa-react{
+  color:rgb(0, 140, 255);
+}
+
+.fa-node-js{
+  color:green;
+}
+
+.fa-git-alt{
+  color: rgb(246, 74, 26);
+}
+
 .icon-container {
   position: relative;
   display: inline-block;

@@ -75,6 +75,41 @@ body {
   font-size: 3em;
 }
 
+.fa-html5{
+  color: rgb(246, 74, 26);
+}
+
+.fa-bootstrap{
+  color: rgb(138, 46, 168);
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #427e9cc1;
+  color: #fff;
+  text-align: center;
+  border-radius: 9px;
+  padding: 3px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.icon-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
 footer {
   background-color: rgba(0, 0, 0, 0.25);
 

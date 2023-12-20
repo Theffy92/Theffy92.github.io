@@ -72,7 +72,7 @@ body {
 } */
 
 .skill-icon{
-  font-size: 3em;
+  font-size: 5em;
 }
 
 .fa-html5{
@@ -81,6 +81,18 @@ body {
 
 .fa-bootstrap{
   color: rgb(138, 46, 168);
+}
+
+.fa-css3{
+  color:rgb(0, 140, 255);
+}
+
+.fa-php{
+  color:rgb(67, 146, 183);
+}
+
+.fa-java{
+  color:rgb(18, 29, 77);
 }
 
 .icon-container {

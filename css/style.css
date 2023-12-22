@@ -158,10 +158,17 @@ body {
     opacity: 1;
   }
 
-  #more{
+ .more-content{
     display: none;
   }
-  
+
+ .btnMore {
+    background:none;
+    border: none;
+    color: rgb(119, 15, 174);
+    font-weight: bold;
+  }
+
   footer {
     background-color: rgba(0, 0, 0, 0.25);
   

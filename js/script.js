@@ -1,8 +1,8 @@
 // // JavaScript Document
-function myFunction(){
-	var dots = document.getElementById("dots");
-	var moreText = document.getElementById("more");
-	var btnText= document.getElementById("myBtn");
+function toggleReadMore(dotsId, moreId, btnId){
+	var dots = document.getElementById(dotsId);
+	var moreText = document.getElementById(moreId);
+	var btnText= document.getElementById(btnId);
 
 	if(dots.style.display === "none") {
 		dots.style.display = "inline";
@@ -14,6 +14,12 @@ function myFunction(){
 		moreText.style.display = "inline";
 	}
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+
+	// toggleReadMore('dots', 'more', 'readMore');
+	// toggleReadMore('dots1', 'more1', 'readMore1');
+});
 
 window.onload = function()
 {

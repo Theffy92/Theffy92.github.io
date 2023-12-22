@@ -119,5 +119,5 @@ window.onload = function()
 			telement[i].innerHTML = telement[i].innerHTML.substring(0,contlimit) + " ... " + rmtext;
 		}
 	}*/
-	
+
 }

@@ -15,11 +15,11 @@ function toggleReadMore(dotsId, moreId, btnId){
 	}
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
 
-	// toggleReadMore('dots', 'more', 'readMore');
-	// toggleReadMore('dots1', 'more1', 'readMore1');
-});
+// 	// toggleReadMore('dots', 'more', 'readMore');
+// 	// toggleReadMore('dots1', 'more1', 'readMore1');
+// });
 
 window.onload = function()
 {

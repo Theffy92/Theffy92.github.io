@@ -58,23 +58,24 @@ body {
   
   #profile{
     /* background-color:#f3efe0; */
-    background-color: rgb(232, 232, 232);
+    background-color: rgba(182, 137, 224, 0.226);
+    color: #fff;
   }
   
   #experience{
-    background-color:rgb(232, 232, 232);
+    background-color:rgba(232, 232, 232, 0.6);
   }
   
   #education{
-    background-color:rgb(232, 232, 232);
+    background-color:rgba(232, 232, 232, 0.6);
   }
 
   #abilities{
-    background-color: rgb(232, 232, 232);;
+    background-color: rgba(232, 232, 232, 0.6);
   }
   
   #contact{
-    background-color:rgb(232, 232, 232);
+    background-color:rgba(232, 232, 232, 0.644);
   }
   
   .skill-icon{
@@ -181,4 +182,5 @@ body {
   } */
   #footer-text{
     font-weight: bold;
+    color: aliceblue;
   }

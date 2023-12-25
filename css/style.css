@@ -2,6 +2,7 @@ body {
     height: 100%;
     /* background-color: #f3efe0; */
     background-color: rgb(85, 48, 97);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .nav ul {
     list-style-type: none;

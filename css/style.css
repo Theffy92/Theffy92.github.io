@@ -169,6 +169,11 @@ body {
  .more-content{
     display: none;
   }
+  
+ .btn{
+    background-color: rgb(119, 15, 174);
+    color:#fff;
+ }
 
  .btnMore {
     background:none;
